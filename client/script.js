@@ -87,8 +87,7 @@ const handleSubmit = async (e) => {
     // messageDiv.innerHTML = "..."
     loader(messageDiv)
 
-    //const response = await fetch(svcLocation, {
-    const response = await fetch('https://twoxbc-cgpt-service.onrender.com', {        
+    const response = await fetch('https://twoxbc-cgpt-service.onrender.com', {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json',
